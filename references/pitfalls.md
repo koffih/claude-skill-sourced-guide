@@ -39,3 +39,9 @@ Each of these cost a night or a page before the rule existed.
 9. **Listing pages that deny fresh data.** A pre-rendered listing kept saying "no page in
    this category" for an hour after publishing. After any publish, revalidate or purge
    the listing and the sitemap, and look at them.
+
+10. **Parallel writers sharing one scratch folder.** One writer ran a build script left
+    by another and rewrote that other writer's page. Give every writer its own scratch
+    folder, named after its item, and forbid running a script it did not write. On a
+    shared machine, also cap OCR to one low-priority process per writer: several
+    writers OCR-ing scans in parallel pushed the load past 170 on 8 cores.
