@@ -1,0 +1,14 @@
+{
+  "languages": ["fr", "en"],
+  "min_words": 2500,
+  "min_sections": 8,
+  "min_sources": 15,
+  "min_faq": 6,
+  "meta_min": 130,
+  "meta_max": 160,
+  "title_max": 55,
+  "allowed_kinds": ["law", "regulator", "government", "statistics", "profession", "standard", "organisation"],
+  "banned": ["—", "in essence", "it is worth noting", "the key is", "concrètement", "il est important de noter", "voici pourquoi", "non négociable", "en somme"],
+  "max_shared_sentences": 3,
+  "shared_sentence_min_words": 8
+}

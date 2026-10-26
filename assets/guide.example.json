@@ -1,0 +1,58 @@
+{
+  "slug": "land-surveyor",
+  "series": "trades",
+  "updated": "2026-10-26",
+  "slugs": { "fr": "geometre-expert", "en": "land-surveyor" },
+  "languages": {
+    "en": {
+      "title": "Land surveyor: the work, the rules and how to start",
+      "seo_title": "Land surveyor: work, rules, how to start",
+      "meta_description": "What a land surveyor does, which international classification covers the trade, what remains unverified per country, and how to set up as an independent.",
+      "excerpt": "A short illustration of the guide format: two sections, one question, two primary sources.",
+      "intro": "This example shows the shape of one guide page. A real page is much longer and is written for its own item.",
+      "sections": [
+        {
+          "id": "what",
+          "heading": "What does a land surveyor do?",
+          "body": "The international classification of occupations groups surveyors with cartographers under unit group 2165 [s:ilo-isco-08]."
+        },
+        {
+          "id": "join",
+          "heading": "How the site helps",
+          "shared": true,
+          "body": "Signing up is free and creates a public profile. It is not a job offer."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is a licence needed?",
+          "a": "In most countries the title is protected by law; the rule for each country is listed with its source, and shown as not verified yet when the official text was not found [s:fig-about]."
+        }
+      ]
+    }
+  },
+  "facts": { "xx_licence_required": null },
+  "unverified": [ { "fact": "xx_licence_required", "why": "official text not found yet" } ],
+  "sources": [
+    {
+      "id": "ilo-isco-08",
+      "kind": "statistics",
+      "jurisdiction": "INT",
+      "title": "International Standard Classification of Occupations (ISCO-08)",
+      "publisher": "International Labour Organization",
+      "url": "https://www.ilo.org/public/english/bureau/stat/isco/isco08/",
+      "read": "2026-10-26",
+      "note": ""
+    },
+    {
+      "id": "fig-about",
+      "kind": "profession",
+      "jurisdiction": "INT",
+      "title": "About FIG",
+      "publisher": "International Federation of Surveyors (FIG)",
+      "url": "https://www.fig.net/about/index.asp",
+      "read": "2026-10-26",
+      "note": ""
+    }
+  ]
+}
